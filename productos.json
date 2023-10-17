@@ -1,0 +1,20 @@
+[
+  {
+    "nombre": "Bodega Azul | Malbec",
+    "descripcion": "Color rojo violáceo, sus aromas recuerdan a frutas rojas maduras como ciruelas, guindas y moras. En boca aparecen taninos suaves y dulces, de intensidad media con largo final.",
+    "precio": 3650.90,
+    "imagenSrc": "./assets/Malbec.png"
+  },
+  {
+    "nombre": "Bodega Azul | Cabernet Sauvignon",
+    "descripcion": "Color rojo rubí profundo, aroma a especias y frutas rojas maduras combinadas con pimiento dulce. En boca aparecen taninos maduros y complejos con una fina acidez que confieren al vino una gran personalidad.",
+    "precio": 3500.80,
+    "imagenSrc": "./assets/Cabernet Sauvignon.png"
+  },
+  {
+    "nombre": "Bodega Azul | Sauvignon Blanc",
+    "descripcion": "A la vista color amarillo, con tonalidades verdosas, brillante. Aromas cítricos, pomelo rosado, lima, con una interesante nota de ruda. En boca percibimos una entrada cítrica, y fresca de sabores intensos, con un final prolongado.",
+    "precio": 3300.50,
+    "imagenSrc": "./assets/Sauvignon Blanc.png"
+  }
+]

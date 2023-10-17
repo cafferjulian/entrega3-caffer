@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PreEntrega 3 Campos</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <img class="Azul-logo" src="./assets/Azul.png" alt="" />
+            <input type="search" placeholder="Buscar..." />
+        </div>
+    </header>
+
+    <main>
+        <h1 class="main-title">Productos</h1>
+        <div class="products-container">
+            <div class="product-card">
+                <img src="./assets/Malbec.png" alt="Producto" />
+                <h2>Malbec</h2>
+                <p>
+                  Color rojo violáceo, sus aromas recuerdan a frutas rojas 
+                  maduras como ciruelas, guindas y moras. En boca aparecen
+                  taninos suaves y dulces, de intensidad media con largo final.
+                </p>
+                <p class="price">$3650.90</p>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./assets/Cabernet Sauvignon.png" alt="Producto" />
+                <h2>Cabernet Sauvignon</h2>
+                <p>
+                  Color rojo rubí profundo, aroma a especias y frutas rojas 
+                  maduras combinadas con pimiento dulce. En boca aparecen taninos 
+                  maduros y complejos con una fina acidez que confieren al vino 
+                  una gran personalidad. 
+                </p>
+                <p class="price">$3500.80</p>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./assets/Sauvignon Blanc.png" alt="Producto" />
+                <h2>Sauvignon Blanc</h2>
+                <p>
+                  A la vista color amarillo, con tonalidades verdosas, brillante. 
+                  Aromas cítricos, pomelo rosado, lima, con una interesante nota de ruda. 
+                  En boca percibimos una entrada cítrica, y fresca de sabores intensos, con un final prolongado.
+                </p>
+                <p class="price">$3300.50</p>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="cart-container">
+            <div class="cart">
+                <div id="message-container"></div>
+                <h2>Carrito de Compras</h2>
+                <table class="cart-items">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Precio Unitario</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <p class="cart-total">Total: $0.00</p>
+                <button class="checkout">Finalizar Compra</button>
+                <button class="clear-cart">Vaciar Carrito</button>
+            </div>
+        </div>
+    </main>
+
+    <footer></footer>
+    <script src="./index.js"></script>
+</body>
+</html>
